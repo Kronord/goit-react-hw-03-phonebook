@@ -1,0 +1,31 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: rgba(241, 238, 53, 0.5);
+    border-radius: 10px;
+    color: #fff7ee;
+}
+
+.item:last-child {
+    margin-bottom: 0;
+}
+
+.btn {
+    border: none;
+    padding: 4px 15px;
+    border-radius: 10px;
+    color: #fff7ee;
+    background-color: rgba(218, 163, 62, 0.7);
+    transition: background-color 500ms cubic-bezier(.17,.67,.83,.67);
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(255, 166, 0);
+}
+
+
+
+

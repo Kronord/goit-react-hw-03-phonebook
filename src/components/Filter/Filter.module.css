@@ -1,0 +1,24 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    padding: 20px;
+    width: 400px;
+    background-color: rgb(178, 223, 223, 0.7);
+    border-radius: 10px;
+}
+
+.label {
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 250px;
+    border: none;
+    height: 25px;
+    border-radius: 10px;
+    outline: none;
+}
+
